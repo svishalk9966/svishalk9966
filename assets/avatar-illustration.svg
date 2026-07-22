@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Vishal Kumar Sharma avatar">
+  <title>Vishal Kumar Sharma — Developer Avatar</title>
+  <defs>
+    <linearGradient id="av_bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071626"/>
+      <stop offset="100%" stop-color="#040e1a"/>
+    </linearGradient>
+    <linearGradient id="av_skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c8885a"/>
+      <stop offset="100%" stop-color="#a86b40"/>
+    </linearGradient>
+    <linearGradient id="av_hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#0d0a06"/>
+    </linearGradient>
+    <linearGradient id="av_shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2e50"/>
+      <stop offset="100%" stop-color="#0f1e35"/>
+    </linearGradient>
+    <linearGradient id="av_border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="av_glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="av_circle"><circle cx="60" cy="60" r="56"/></clipPath>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="60" fill="url(#av_bg)"/>
+  <!-- Border ring -->
+  <circle cx="60" cy="60" r="57" fill="none" stroke="url(#av_border)" stroke-width="3"/>
+
+  <g clip-path="url(#av_circle)">
+    <!-- Ambient glow -->
+    <circle cx="80" cy="30" r="40" fill="#22d3ee" opacity=".1"/>
+    <circle cx="20" cy="90" r="40" fill="#34d399" opacity=".1"/>
+
+    <!-- Body/shirt -->
+    <path d="M18 95 C18 76 32 68 60 66 C88 68 102 76 102 95 L102 120 L18 120Z" fill="url(#av_shirt)"/>
+
+    <!-- Neck -->
+    <rect x="52" y="58" width="16" height="14" rx="5" fill="url(#av_skin)"/>
+
+    <!-- Head -->
+    <!-- Hair back -->
+    <ellipse cx="60" cy="40" rx="28" ry="24" fill="url(#av_hair)"/>
+    <!-- Face -->
+    <ellipse cx="60" cy="44" rx="24" ry="26" fill="url(#av_skin)"/>
+    <!-- Hair top -->
+    <path d="M36 36 C36 20 46 12 60 10 C74 12 84 20 84 36 C78 28 72 25 64 27 C52 25 44 28 36 36Z" fill="url(#av_hair)"/>
+    <!-- Hair sides -->
+    <path d="M36 36 C34 44 34 54 37 62 C38 56 38 48 40 42Z" fill="url(#av_hair)"/>
+    <path d="M84 36 C86 44 86 54 83 62 C82 56 82 48 80 42Z" fill="url(#av_hair)"/>
+
+    <!-- Eyes -->
+    <ellipse cx="70" cy="43" rx="5" ry="4" fill="#1a1008"/>
+    <circle cx="71" cy="42" r="2.5" fill="#3a1f08"/>
+    <circle cx="72" cy="41" r="1.2" fill="#060402"/>
+    <circle cx="73" cy="40.5" r=".6" fill="#fff" opacity=".7"/>
+    <path d="M65 38 C67 35 71 34 74 36" fill="none" stroke="#1a1008" stroke-width="1.4" stroke-linecap="round"/>
+
+    <ellipse cx="50" cy="43" rx="4" ry="3.5" fill="#1a1008"/>
+    <circle cx="51" cy="42" r="2" fill="#3a1f08"/>
+    <circle cx="52" cy="41" r="1" fill="#060402"/>
+    <circle cx="52.5" cy="40.5" r=".5" fill="#fff" opacity=".6"/>
+    <path d="M46 38 C48 35 52 34 55 36" fill="none" stroke="#1a1008" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M59 48 L56 56 C58 58 62 58 64 56Z" fill="#a06840" opacity=".5"/>
+    <ellipse cx="55.5" cy="56" rx="2.5" ry="2" fill="#8a5830"/>
+    <ellipse cx="64.5" cy="56" rx="2.5" ry="2" fill="#8a5830"/>
+
+    <!-- Mouth -->
+    <path d="M52 62 C56 67 64 67 68 62" fill="none" stroke="#8a5830" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Ears -->
+    <ellipse cx="36" cy="47" rx="5" ry="7" fill="url(#av_skin)"/>
+    <ellipse cx="84" cy="47" rx="5" ry="7" fill="url(#av_skin)"/>
+
+    <!-- Headphones (signature tech accessory) -->
+    <path d="M40 40 C40 18 80 18 80 40" fill="none" stroke="#1a2e4a" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="40" cy="46" rx="6" ry="9" fill="#12253f" stroke="#22d3ee" stroke-width=".7"/>
+    <ellipse cx="80" cy="46" rx="6" ry="9" fill="#12253f" stroke="#22d3ee" stroke-width=".7"/>
+    <circle cx="40" cy="46" r="3" fill="#22d3ee" opacity=".4"/>
+    <circle cx="80" cy="46" r="3" fill="#22d3ee" opacity=".4"/>
+  </g>
+
+  <!-- Online indicator -->
+  <circle cx="96" cy="96" r="10" fill="#04090f" stroke="#34d399" stroke-width="2.5"/>
+  <circle cx="96" cy="96" r="6" fill="#34d399"/>
+</svg>

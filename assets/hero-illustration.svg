@@ -1,0 +1,331 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" role="img" aria-label="Vishal Kumar Sharma — cyber developer workspace illustration">
+  <title>Vishal Kumar Sharma — coding workspace illustration</title>
+  <defs>
+    <linearGradient id="bg0" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060b13"/>
+      <stop offset="100%" stop-color="#040810"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2740"/>
+      <stop offset="100%" stop-color="#0d1520"/>
+    </linearGradient>
+    <linearGradient id="mon1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#07131e"/>
+      <stop offset="100%" stop-color="#030a12"/>
+    </linearGradient>
+    <linearGradient id="hoodie" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2e50"/>
+      <stop offset="100%" stop-color="#0f1e35"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c8885a"/>
+      <stop offset="100%" stop-color="#a86b40"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#0d0a06"/>
+    </linearGradient>
+    <linearGradient id="chair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e1825"/>
+      <stop offset="100%" stop-color="#07111a"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="fg" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="fs" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+    <style>
+      @keyframes codePulse{0%,100%{opacity:0.7}50%{opacity:1}}
+      @keyframes screenBlink{0%,97%,100%{opacity:1}98%{opacity:0.2}}
+      @keyframes floatIcon{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      @keyframes scanCode{0%{transform:translateY(-60px);opacity:0}10%{opacity:0.55}90%{opacity:0.55}100%{transform:translateY(80px);opacity:0}}
+      @keyframes typeCursor{0%,49%{opacity:1}50%,100%{opacity:0}}
+      .cp{animation:codePulse 3s ease-in-out infinite}
+      .sc{animation:screenBlink 8s ease-in-out infinite}
+      .fi{animation:floatIcon 3.8s ease-in-out infinite}
+      .fi2{animation:floatIcon 3.2s ease-in-out infinite 0.9s}
+      .fi3{animation:floatIcon 4.4s ease-in-out infinite 1.6s}
+      .scanline{animation:scanCode 4s linear infinite}
+      .cur{animation:typeCursor 1s step-end infinite}
+    </style>
+    <clipPath id="monClip1"><rect x="62" y="66" width="196" height="128" rx="4"/></clipPath>
+    <clipPath id="monClip2"><rect x="272" y="76" width="148" height="108" rx="4"/></clipPath>
+    <clipPath id="monClip3"><rect x="62" y="206" width="110" height="80" rx="4"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="520" height="560" rx="36" fill="url(#bg0)"/>
+  <!-- Ambient glows -->
+  <circle cx="390" cy="120" r="160" fill="url(#glow1)"/>
+  <circle cx="100" cy="460" r="180" fill="url(#glow2)"/>
+  <!-- Grid lines -->
+  <g opacity="0.08" stroke="#22d3ee" stroke-width="0.6">
+    <line x1="0" y1="100" x2="520" y2="100"/>
+    <line x1="0" y1="200" x2="520" y2="200"/>
+    <line x1="0" y1="300" x2="520" y2="300"/>
+    <line x1="0" y1="400" x2="520" y2="400"/>
+    <line x1="100" y1="0" x2="100" y2="560"/>
+    <line x1="200" y1="0" x2="200" y2="560"/>
+    <line x1="300" y1="0" x2="300" y2="560"/>
+    <line x1="400" y1="0" x2="400" y2="560"/>
+  </g>
+
+  <!-- ===== DESK ===== -->
+  <rect x="30" y="300" width="440" height="18" rx="8" fill="url(#desk)" stroke="#1e3250" stroke-width="1.2"/>
+  <rect x="40" y="316" width="420" height="8" rx="4" fill="#0a1525" opacity="0.8"/>
+  <!-- desk glow edge -->
+  <rect x="30" y="300" width="440" height="3" rx="2" fill="#22d3ee" opacity="0.3"/>
+
+  <!-- ===== LEFT MONITOR (main, large) ===== -->
+  <!-- stand -->
+  <rect x="144" y="294" width="18" height="12" rx="4" fill="#0e1825"/>
+  <rect x="132" y="302" width="42" height="5" rx="2.5" fill="#0a1420"/>
+  <!-- frame -->
+  <rect x="54" y="50" width="214" height="252" rx="12" fill="#09131e" stroke="#1e3a55" stroke-width="1.8" filter="url(#shadow)"/>
+  <!-- screen -->
+  <rect x="62" y="58" width="198" height="136" rx="6" fill="#04090f" class="sc"/>
+  <!-- scanline -->
+  <rect x="62" y="58" width="198" height="3" fill="#22d3ee" opacity="0.18" class="scanline"/>
+  <!-- code content in main monitor -->
+  <g clip-path="url(#monClip1)">
+    <!-- line numbers -->
+    <g fill="#2a4060" font-size="7.5" font-family="'Courier New',monospace">
+      <text x="68" y="78">01</text><text x="68" y="90">02</text><text x="68" y="102">03</text><text x="68" y="114">04</text><text x="68" y="126">05</text>
+      <text x="68" y="138">06</text><text x="68" y="150">07</text><text x="68" y="162">08</text><text x="68" y="174">09</text><text x="68" y="186">10</text>
+    </g>
+    <!-- syntax highlighted code -->
+    <g font-size="7.5" font-family="'Courier New',monospace" class="cp">
+      <text x="84" y="78" fill="#22d3ee">const</text>
+      <text x="108" y="78" fill="#e5c07b"> vishal </text>
+      <text x="136" y="78" fill="#56b6c2">= {</text>
+      <text x="90" y="90" fill="#e06c75">name:</text>
+      <text x="116" y="90" fill="#98c379"> 'Vishal K Sharma',</text>
+      <text x="90" y="102" fill="#e06c75">role:</text>
+      <text x="116" y="102" fill="#98c379"> 'Full Stack Dev',</text>
+      <text x="90" y="114" fill="#e06c75">skills:</text>
+      <text x="118" y="114" fill="#56b6c2"> [</text>
+      <text x="98" y="126" fill="#98c379">'React', 'Node',</text>
+      <text x="98" y="138" fill="#98c379">'MERN', 'Firebase',</text>
+      <text x="98" y="150" fill="#98c379">'Python', 'CyberSec',</text>
+      <text x="118" y="162" fill="#56b6c2">],</text>
+      <text x="90" y="174" fill="#e06c75">mission:</text>
+      <text x="122" y="174" fill="#98c379"> 'Build &amp; Secure'</text>
+      <text x="84" y="186" fill="#56b6c2">}</text>
+    </g>
+    <!-- cursor blink -->
+    <rect x="94" y="178" width="5" height="8" rx="1" fill="#22d3ee" class="cur"/>
+  </g>
+  <!-- monitor brand dot -->
+  <circle cx="153" cy="292" r="2.5" fill="#22d3ee" opacity="0.6"/>
+
+  <!-- ===== RIGHT MONITOR (secondary) ===== -->
+  <!-- stand -->
+  <rect x="340" y="294" width="14" height="10" rx="3" fill="#0e1825"/>
+  <rect x="330" y="302" width="34" height="4" rx="2" fill="#0a1420"/>
+  <!-- frame -->
+  <rect x="264" y="58" width="164" height="144" rx="10" fill="#09131e" stroke="#1e3a55" stroke-width="1.4" filter="url(#shadow)"/>
+  <!-- screen -->
+  <rect x="272" y="66" width="148" height="118" rx="5" fill="#03080e"/>
+  <!-- terminal content -->
+  <g clip-path="url(#monClip2)" class="cp">
+    <rect x="272" y="66" width="148" height="16" rx="2" fill="#0a1522"/>
+    <circle cx="282" cy="74" r="3.5" fill="#f87171"/>
+    <circle cx="292" cy="74" r="3.5" fill="#fbbf24"/>
+    <circle cx="302" cy="74" r="3.5" fill="#34d399"/>
+    <text x="330" y="77" font-size="7" font-family="'Courier New',monospace" fill="#64748b" text-anchor="middle">terminal</text>
+    <g font-size="7" font-family="'Courier New',monospace">
+      <text x="278" y="93" fill="#34d399">vishal@dev</text>
+      <text x="326" y="93" fill="#64748b">:~$</text>
+      <text x="344" y="93" fill="#e5e5e5"> npm run dev</text>
+      <text x="278" y="103" fill="#22d3ee">  ➜ Local: </text>
+      <text x="320" y="103" fill="#98c379">http://localhost:3000</text>
+      <text x="278" y="113" fill="#22d3ee">  ➜ Network: </text>
+      <text x="330" y="113" fill="#98c379">ready in 312ms</text>
+      <text x="278" y="123" fill="#34d399">● </text>
+      <text x="285" y="123" fill="#e5e5e5">compiled successfully</text>
+      <text x="278" y="133" fill="#64748b">» watching for changes...</text>
+      <text x="278" y="143" fill="#34d399">vishal@dev</text>
+      <text x="326" y="143" fill="#64748b">:~$</text>
+      <rect x="344" y="136" width="4" height="7" rx="1" fill="#34d399" class="cur"/>
+      <text x="278" y="163" fill="#22d3ee">$ git status</text>
+      <text x="278" y="173" fill="#98c379">On branch: main</text>
+    </g>
+  </g>
+
+  <!-- ===== KEYBOARD ===== -->
+  <rect x="80" y="316" width="240" height="28" rx="8" fill="#0b1828" stroke="#1a3050" stroke-width="1"/>
+  <!-- keys row 1 -->
+  <g fill="#0f2035" stroke="#1e3a55" stroke-width="0.6">
+    <rect x="88" y="320" width="12" height="8" rx="2"/>  <rect x="104" y="320" width="12" height="8" rx="2"/>
+    <rect x="120" y="320" width="12" height="8" rx="2"/>  <rect x="136" y="320" width="12" height="8" rx="2"/>
+    <rect x="152" y="320" width="12" height="8" rx="2"/>  <rect x="168" y="320" width="12" height="8" rx="2"/>
+    <rect x="184" y="320" width="12" height="8" rx="2"/>  <rect x="200" y="320" width="12" height="8" rx="2"/>
+    <rect x="216" y="320" width="12" height="8" rx="2"/>  <rect x="232" y="320" width="12" height="8" rx="2"/>
+    <rect x="248" y="320" width="12" height="8" rx="2"/>  <rect x="264" y="320" width="12" height="8" rx="2"/>
+    <!-- row 2 -->
+    <rect x="88" y="331" width="18" height="8" rx="2"/>  <rect x="110" y="331" width="12" height="8" rx="2"/>
+    <rect x="126" y="331" width="12" height="8" rx="2"/>  <rect x="142" y="331" width="12" height="8" rx="2"/>
+    <rect x="158" y="331" width="12" height="8" rx="2"/>  <rect x="174" y="331" width="12" height="8" rx="2"/>
+    <rect x="190" y="331" width="12" height="8" rx="2"/>  <rect x="206" y="331" width="12" height="8" rx="2"/>
+    <rect x="222" y="331" width="12" height="8" rx="2"/>  <rect x="238" y="331" width="62" height="8" rx="2"/>
+  </g>
+  <!-- keyboard glow -->
+  <rect x="80" y="316" width="240" height="1.5" rx="1" fill="#22d3ee" opacity="0.25"/>
+
+  <!-- ===== MOUSE ===== -->
+  <ellipse cx="356" cy="326" rx="14" ry="18" fill="#0b1828" stroke="#1a3050" stroke-width="1"/>
+  <line x1="356" y1="312" x2="356" y2="322" stroke="#22d3ee" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ===== LAPTOP (small, on desk edge) ===== -->
+  <rect x="400" y="285" width="80" height="52" rx="6" fill="#080f1a" stroke="#1a3050" stroke-width="1"/>
+  <rect x="404" y="288" width="72" height="46" rx="4" fill="#04090f"/>
+  <!-- laptop screen content -->
+  <rect x="408" y="291" width="64" height="7" rx="2" fill="#22d3ee" opacity="0.55"/>
+  <rect x="408" y="301" width="44" height="5" rx="2" fill="#34d399" opacity="0.45"/>
+  <rect x="408" y="309" width="56" height="5" rx="2" fill="#a78bfa" opacity="0.4"/>
+  <rect x="408" y="317" width="36" height="5" rx="2" fill="#22d3ee" opacity="0.35"/>
+  <rect x="408" y="325" width="48" height="5" rx="2" fill="#f472b6" opacity="0.35"/>
+  <!-- laptop base -->
+  <rect x="396" y="336" width="88" height="5" rx="2" fill="#0a1525" stroke="#1a3050" stroke-width="0.8"/>
+
+  <!-- ===== DEVELOPER CHARACTER ===== -->
+  <!-- Chair back -->
+  <path d="M200 220 C184 220 172 232 172 248 L172 380 C172 396 184 408 200 408 L290 408 C306 408 318 396 318 380 L318 248 C318 232 306 220 290 220 Z" fill="url(#chair)" stroke="#1a3050" stroke-width="1.4"/>
+  <rect x="178" y="226" width="134" height="14" rx="7" fill="#0e1e30" stroke="#22d3ee" stroke-width="0.5" opacity="0.8"/>
+  <!-- Chair armrests -->
+  <rect x="164" y="300" width="14" height="60" rx="6" fill="#0a1525" stroke="#1a3050" stroke-width="1"/>
+  <rect x="312" y="300" width="14" height="60" rx="6" fill="#0a1525" stroke="#1a3050" stroke-width="1"/>
+  <!-- Chair seat -->
+  <ellipse cx="245" cy="400" rx="80" ry="20" fill="#0a1525" stroke="#1a3050" stroke-width="1.2"/>
+  <!-- Chair pole -->
+  <rect x="238" y="410" width="16" height="50" rx="6" fill="#0e1825"/>
+  <ellipse cx="246" cy="462" rx="38" ry="8" fill="#09131e" stroke="#1a3050" stroke-width="1"/>
+
+  <!-- BODY (hoodie) -->
+  <path d="M188 320 C184 306 184 290 188 278 L200 268 L246 262 L292 268 L304 278 C308 290 308 306 304 320 L312 400 L180 400 Z" fill="url(#hoodie)" stroke="#1e3a58" stroke-width="1.2"/>
+  <!-- hoodie pocket -->
+  <path d="M218 340 L274 340 L274 374 C274 378 270 382 266 382 L226 382 C222 382 218 378 218 374 Z" fill="#0f1e35" stroke="#1a3050" stroke-width="0.8"/>
+  <!-- hoodie strings -->
+  <line x1="238" y1="268" x2="234" y2="290" stroke="#0a1525" stroke-width="2" stroke-linecap="round"/>
+  <line x1="254" y1="268" x2="258" y2="290" stroke="#0a1525" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- NECK -->
+  <rect x="234" y="250" width="24" height="22" rx="8" fill="url(#skin)"/>
+
+  <!-- HEAD -->
+  <!-- hair back -->
+  <ellipse cx="246" cy="194" rx="46" ry="38" fill="url(#hair)"/>
+  <!-- face -->
+  <ellipse cx="246" cy="200" rx="40" ry="42" fill="url(#skin)"/>
+  <!-- hair top/front -->
+  <path d="M206 184 C206 158 220 142 246 138 C272 142 286 158 286 184 C278 172 268 168 256 170 C244 168 234 172 226 178 C220 174 214 174 206 184Z" fill="url(#hair)"/>
+  <!-- hair side fade -->
+  <path d="M206 184 C204 196 204 208 208 218 C210 210 210 202 212 196Z" fill="url(#hair)"/>
+  <path d="M286 184 C288 196 288 208 284 218 C282 210 282 202 280 196Z" fill="url(#hair)"/>
+
+  <!-- EYE (right, looking at screen) -->
+  <ellipse cx="258" cy="200" rx="8" ry="6" fill="#1a1008"/>
+  <circle cx="260" cy="199" r="3.5" fill="#3a1f08"/>
+  <circle cx="261" cy="198" r="1.8" fill="#060402"/>
+  <circle cx="262" cy="197" r="0.9" fill="#fff" opacity="0.7"/>
+  <!-- eyebrow -->
+  <path d="M251 192 C254 188 260 187 265 189" fill="none" stroke="#1a1008" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- LEFT eye (partially visible) -->
+  <ellipse cx="232" cy="200" rx="6" ry="5" fill="#1a1008"/>
+  <circle cx="234" cy="199" r="2.8" fill="#3a1f08"/>
+  <circle cx="235" cy="198" r="1.4" fill="#060402"/>
+  <circle cx="236" cy="197" r="0.7" fill="#fff" opacity="0.6"/>
+  <path d="M226 192 C229 188 235 187 239 189" fill="none" stroke="#1a1008" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- NOSE -->
+  <path d="M246 204 L242 218 C244 220 248 220 250 218 Z" fill="#a06840" opacity="0.6"/>
+  <!-- nostrils -->
+  <ellipse cx="241" cy="219" rx="3.5" ry="2.5" fill="#8a5830"/>
+  <ellipse cx="251" cy="219" rx="3.5" ry="2.5" fill="#8a5830"/>
+
+  <!-- MOUTH (slight smile) -->
+  <path d="M236 228 C240 234 252 234 256 228" fill="none" stroke="#8a5830" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- EAR -->
+  <ellipse cx="207" cy="206" rx="7" ry="10" fill="url(#skin)" stroke="#a06840" stroke-width="0.6"/>
+  <ellipse cx="285" cy="206" rx="7" ry="10" fill="url(#skin)" stroke="#a06840" stroke-width="0.6"/>
+
+  <!-- ARMS (at keyboard) -->
+  <!-- Left arm -->
+  <path d="M188 320 L168 328 L152 340 L148 356 L160 362 L178 348 L196 336Z" fill="url(#hoodie)" stroke="#1e3a58" stroke-width="1"/>
+  <!-- left hand/fingers -->
+  <ellipse cx="144" cy="360" rx="18" ry="10" fill="url(#skin)"/>
+  <!-- Right arm -->
+  <path d="M304 320 L324 328 L340 340 L344 356 L332 362 L314 348 L296 336Z" fill="url(#hoodie)" stroke="#1e3a58" stroke-width="1"/>
+  <!-- right hand/fingers -->
+  <ellipse cx="348" cy="360" rx="18" ry="10" fill="url(#skin)"/>
+
+  <!-- Headphone band -->
+  <path d="M210 186 C210 158 282 158 282 186" fill="none" stroke="#1a2e4a" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="210" cy="192" rx="9" ry="14" fill="#12253f" stroke="#22d3ee" stroke-width="0.8"/>
+  <ellipse cx="282" cy="192" rx="9" ry="14" fill="#12253f" stroke="#22d3ee" stroke-width="0.8"/>
+  <!-- headphone glow -->
+  <circle cx="210" cy="192" r="4" fill="#22d3ee" opacity="0.3"/>
+  <circle cx="282" cy="192" r="4" fill="#22d3ee" opacity="0.3"/>
+
+  <!-- ===== FLOATING TECH ICONS ===== -->
+  <!-- React icon -->
+  <g class="fi" transform="translate(20 170)">
+    <rect width="36" height="36" rx="10" fill="#0d1e30" stroke="#22d3ee" stroke-width="1" opacity="0.9"/>
+    <circle cx="18" cy="18" r="4" fill="#61dafb"/>
+    <ellipse cx="18" cy="18" rx="13" ry="5" fill="none" stroke="#61dafb" stroke-width="1.4" transform="rotate(0 18 18)"/>
+    <ellipse cx="18" cy="18" rx="13" ry="5" fill="none" stroke="#61dafb" stroke-width="1.4" transform="rotate(60 18 18)"/>
+    <ellipse cx="18" cy="18" rx="13" ry="5" fill="none" stroke="#61dafb" stroke-width="1.4" transform="rotate(-60 18 18)"/>
+  </g>
+  <!-- Node.js icon -->
+  <g class="fi2" transform="translate(464 100)">
+    <rect width="36" height="36" rx="10" fill="#0d1e30" stroke="#8cc84b" stroke-width="1" opacity="0.9"/>
+    <text x="18" y="24" text-anchor="middle" font-size="11" font-weight="700" fill="#8cc84b" font-family="sans-serif">Node</text>
+  </g>
+  <!-- Python icon -->
+  <g class="fi3" transform="translate(466 400)">
+    <rect width="36" height="36" rx="10" fill="#0d1e30" stroke="#3776ab" stroke-width="1" opacity="0.9"/>
+    <text x="18" y="24" text-anchor="middle" font-size="11" font-weight="700" fill="#ffdc5e" font-family="sans-serif">Py</text>
+  </g>
+  <!-- Shield (security) icon -->
+  <g class="fi" transform="translate(18 380)">
+    <rect width="36" height="36" rx="10" fill="#0d1e30" stroke="#34d399" stroke-width="1" opacity="0.9"/>
+    <path d="M18 8 L28 12 L28 22 C28 28 23 32 18 34 C13 32 8 28 8 22 L8 12 Z" fill="none" stroke="#34d399" stroke-width="1.4"/>
+    <text x="18" y="25" text-anchor="middle" font-size="8" fill="#34d399" font-family="sans-serif">SEC</text>
+  </g>
+  <!-- AI icon -->
+  <g class="fi2" transform="translate(464 240)">
+    <rect width="36" height="36" rx="10" fill="#0d1e30" stroke="#a78bfa" stroke-width="1" opacity="0.9"/>
+    <text x="18" y="24" text-anchor="middle" font-size="11" font-weight="700" fill="#a78bfa" font-family="sans-serif">AI</text>
+  </g>
+
+  <!-- ===== PARTICLE DOTS ===== -->
+  <circle cx="48" cy="60" r="1.5" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="470" cy="340" r="2" fill="#34d399" opacity="0.55"/>
+  <circle cx="30" cy="280" r="1.8" fill="#38bdf8" opacity="0.45"/>
+  <circle cx="496" cy="160" r="1.5" fill="#22d3ee" opacity="0.4"/>
+  <circle cx="60" cy="490" r="1.2" fill="#34d399" opacity="0.5"/>
+  <circle cx="488" cy="490" r="1.8" fill="#a78bfa" opacity="0.4"/>
+  <!-- sparkle stars -->
+  <path d="M478 60 l2 5 5 2 -5 2 -2 5 -2-5-5-2 5-2z" fill="#22d3ee" opacity="0.65"/>
+  <path d="M42 120 l1.5 4 4 1.5 -4 1.5-1.5 4-1.5-4-4-1.5 4-1.5z" fill="#34d399" opacity="0.6"/>
+  <path d="M500 300 l1.5 4 4 1.5 -4 1.5-1.5 4-1.5-4-4-1.5 4-1.5z" fill="#38bdf8" opacity="0.55"/>
+
+  <!-- Floor shadow -->
+  <ellipse cx="246" cy="518" rx="180" ry="24" fill="#000" opacity="0.35"/>
+</svg>
