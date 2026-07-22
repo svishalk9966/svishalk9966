@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <!-- ✨ Animated Hero Banner ✨ -->
 <picture>
@@ -63,49 +63,22 @@ $ npx vishal-kumar-sharma
 
 <br/>
 
-<table border="0">
+<table border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td width="33%" valign="top" align="center">
-
-### 📲 Cryptus Attendance
-> *Enterprise Management*
-
-Biometric & location-based attendance app with real-time tracking, PDF exports, and multi-role (Admin/Teacher/Student) architecture.
-
-**React Native Node.js MongoDB**
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/View_Code-22D3EE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/svishalk9966/cryptus-attendance-app)
-
+<a href="https://github.com/svishalk9966/cryptus-attendance-app">
+  <img src="./assets/project-cryptus.svg?v=1" alt="Cryptus Attendance App" width="100%"/>
+</a>
 </td>
 <td width="33%" valign="top" align="center">
-
-### 🎓 Hacksmart Academy
-> *EdTech Platform*
-
-Cybersecurity education platform handling hundreds of students. Migrated from legacy MySQL to a lightning-fast Firebase backend.
-
-**PHP Firebase Cloudinary**
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/View_Code-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/svishalk9966/hacksmart-academy)
-
+<a href="https://github.com/svishalk9966/hacksmart-academy">
+  <img src="./assets/project-hacksmart.svg?v=1" alt="Hacksmart Academy" width="100%"/>
+</a>
 </td>
 <td width="33%" valign="top" align="center">
-
-### 🌐 Premium Portfolio
-> *Personal Brand*
-
-A modern, highly responsive developer portfolio showcasing premium UI/UX design, smooth animations, and optimized performance.
-
-**React Vite CSS3**
-
-<br/>
-
-[![Live Demo](https://img.shields.io/badge/Live_Site-A78BFA?style=for-the-badge&logo=vercel&logoColor=white)](https://vishal-portfolio-two-sand.vercel.app/)
-
+<a href="https://vishal-portfolio-two-sand.vercel.app/">
+  <img src="./assets/project-portfolio.svg?v=1" alt="Premium Portfolio" width="100%"/>
+</a>
 </td>
 </tr>
 </table>
