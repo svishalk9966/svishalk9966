@@ -214,8 +214,8 @@ vishal@dev-machine:~$ cat profile.json
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=svishalk9966&show_icons=true&theme=tokyonight&hide_border=true&bg_color=060b13&title_color=22d3ee&icon_color=34d399&text_color=9fb8cd&ring_color=22d3ee&border_radius=12" alt="GitHub Stats" height="185"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=svishalk9966&layout=compact&theme=tokyonight&hide_border=true&bg_color=060b13&title_color=22d3ee&text_color=9fb8cd&border_radius=12" alt="Top Languages" height="185"/>
+<img src="./assets/vishal-stats.svg?v=1" alt="GitHub Stats" height="185"/>
+<img src="./assets/vishal-langs.svg?v=1" alt="Top Languages" height="185"/>
 
 <br/><br/>
 
@@ -228,8 +228,8 @@ vishal@dev-machine:~$ cat profile.json
 
 <br/><br/>
 
-<!-- 🏆 Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=svishalk9966&theme=tokyonight&no-frame=true&column=7&margin-w=8&margin-h=8&no-bg=true" alt="Trophies" width="95%"/>
+<!-- 🏆 Custom Trophies (Animated SVG) -->
+<img src="./assets/vishal-trophies.svg?v=1" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
