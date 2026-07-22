@@ -1,0 +1,70 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="Vishal's Tech Stack">
+<title>Vishal Kumar Sharma — Tech Arsenal</title>
+<defs>
+<style><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@keyframes scanH{0%{transform:translateY(-3px);opacity:0}15%{opacity:.25}85%{opacity:.25}100%{transform:translateY(420px);opacity:0}}
+@keyframes shineX{0%{transform:translateX(-200px) skewX(-15deg)}60%,100%{transform:translateX(1100px) skewX(-15deg)}}
+@keyframes badgePop{0%{opacity:0;transform:scale(.7)}80%{transform:scale(1.06)}100%{opacity:1;transform:scale(1)}}
+.badge{opacity:0;animation:badgePop .45s cubic-bezier(.2,.8,.3,1.2) forwards;transform-box:fill-box;transform-origin:center}
+.cat{opacity:0;animation:fadeUp .5s ease forwards}
+.scan{animation:scanH 5s linear infinite}
+.shine{animation:shineX 5s ease-in-out 3s infinite}
+]]></style>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#040d18"/><stop offset="100%" stop-color="#060b13"/></linearGradient>
+<linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%"><animate attributeName="stop-color" values="#22d3ee;#34d399;#38bdf8;#22d3ee" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#34d399;#22d3ee;#34d399" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="shg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".05"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="clip"><rect x="1" y="1" width="898" height="418" rx="16"/></clipPath>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r=".5" fill="rgba(34,211,238,.08)"/></pattern>
+</defs>
+<rect x="1" y="1" width="898" height="418" rx="16" fill="url(#bg)"/>
+<rect x="1" y="1" width="898" height="418" rx="16" fill="url(#dots)"/>
+<rect x="1" y="1" width="898" height="418" rx="16" fill="none" stroke="url(#tg)" stroke-width="1.5"/>
+<g clip-path="url(#clip)">
+  <rect class="scan" x="0" y="-3" width="900" height="3" fill="rgba(34,211,238,.35)"/>
+  <rect class="shine" x="0" y="0" width="60" height="420" fill="url(#shg)"/>
+</g>
+<text class="cat" x="450" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="url(#tg)" filter="url(#glow)" style="animation-delay:.1s">&#x2699;&#xFE0F; Tech Arsenal</text>
+<line x1="100" y1="52" x2="800" y2="52" stroke="url(#tg)" stroke-width=".8" opacity=".4"/>
+<!-- FRONTEND -->
+<text class="cat" x="450" y="82" text-anchor="middle" font-size="12" fill="#64748b" letter-spacing="3" style="animation-delay:.2s">FRONTEND</text>
+<g class="badge" style="animation-delay:.35s" transform="translate(60,94)"><rect width="96" height="34" rx="9" fill="#0d2035" stroke="#61dafb" stroke-width="1.2"/><text x="48" y="22" text-anchor="middle" font-size="13" fill="#61dafb" font-weight="bold">&#x26DB; React</text></g>
+<g class="badge" style="animation-delay:.42s" transform="translate(168,94)"><rect width="116" height="34" rx="9" fill="#0d2035" stroke="#61dafb" stroke-width="1.2" stroke-dasharray="3 2"/><text x="58" y="22" text-anchor="middle" font-size="12" fill="#61dafb" font-weight="bold">&#x1F4F1; React Native</text></g>
+<g class="badge" style="animation-delay:.49s" transform="translate(296,94)"><rect width="88" height="34" rx="9" fill="#111" stroke="#fff" stroke-width="1"/><text x="44" y="22" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">&#x25B2; Next.js</text></g>
+<g class="badge" style="animation-delay:.56s" transform="translate(396,94)"><rect width="110" height="34" rx="9" fill="#0b3a6e" stroke="#3178c6" stroke-width="1.2"/><text x="55" y="22" text-anchor="middle" font-size="13" fill="#60a5fa" font-weight="bold">TS TypeScript</text></g>
+<g class="badge" style="animation-delay:.63s" transform="translate(518,94)"><rect width="110" height="34" rx="9" fill="#2a2200" stroke="#f7df1e" stroke-width="1.2"/><text x="55" y="22" text-anchor="middle" font-size="13" fill="#fde047" font-weight="bold">JS JavaScript</text></g>
+<g class="badge" style="animation-delay:.70s" transform="translate(640,94)"><rect width="96" height="34" rx="9" fill="#0c2841" stroke="#38bdf8" stroke-width="1.2"/><text x="48" y="22" text-anchor="middle" font-size="13" fill="#38bdf8" font-weight="bold">&#x1F30A; Tailwind</text></g>
+<g class="badge" style="animation-delay:.77s" transform="translate(748,94)"><rect width="80" height="34" rx="9" fill="#1a0e38" stroke="#a78bfa" stroke-width="1.2"/><text x="40" y="22" text-anchor="middle" font-size="13" fill="#c4b5fd" font-weight="bold">&#x26A1; Vite</text></g>
+<!-- BACKEND -->
+<text class="cat" x="450" y="160" text-anchor="middle" font-size="12" fill="#64748b" letter-spacing="3" style="animation-delay:.8s">BACKEND</text>
+<g class="badge" style="animation-delay:.9s" transform="translate(100,172)"><rect width="96" height="34" rx="9" fill="#0a2e0a" stroke="#4ade80" stroke-width="1.2"/><text x="48" y="22" text-anchor="middle" font-size="13" fill="#4ade80" font-weight="bold">&#x1F7E2; Node.js</text></g>
+<g class="badge" style="animation-delay:.97s" transform="translate(208,172)"><rect width="96" height="34" rx="9" fill="#111" stroke="#666" stroke-width="1"/><text x="48" y="22" text-anchor="middle" font-size="13" fill="#aaa" font-weight="bold">&#x2699; Express</text></g>
+<g class="badge" style="animation-delay:1.04s" transform="translate(316,172)"><rect width="80" height="34" rx="9" fill="#1a1430" stroke="#818cf8" stroke-width="1.2"/><text x="40" y="22" text-anchor="middle" font-size="13" fill="#a78bfa" font-weight="bold">&#x1F418; PHP</text></g>
+<g class="badge" style="animation-delay:1.11s" transform="translate(408,172)"><rect width="96" height="34" rx="9" fill="#0a1f38" stroke="#3776ab" stroke-width="1.2"/><text x="48" y="22" text-anchor="middle" font-size="13" fill="#60a5fa" font-weight="bold">&#x1F40D; Python</text></g>
+<g class="badge" style="animation-delay:1.18s" transform="translate(516,172)"><rect width="96" height="34" rx="9" fill="#1a2e0a" stroke="#34d399" stroke-width="1.2" stroke-dasharray="4 2"/><text x="48" y="22" text-anchor="middle" font-size="13" fill="#34d399" font-weight="bold">&#x1F517; REST API</text></g>
+<g class="badge" style="animation-delay:1.25s" transform="translate(624,172)"><rect width="80" height="34" rx="9" fill="#2d0a0a" stroke="#f87171" stroke-width="1.2"/><text x="40" y="22" text-anchor="middle" font-size="13" fill="#fca5a5" font-weight="bold">&#x1F511; JWT</text></g>
+<!-- DATABASE -->
+<text class="cat" x="450" y="240" text-anchor="middle" font-size="12" fill="#64748b" letter-spacing="3" style="animation-delay:1.3s">DATABASE &amp; CLOUD</text>
+<g class="badge" style="animation-delay:1.4s" transform="translate(90,252)"><rect width="104" height="34" rx="9" fill="#0a2e0a" stroke="#4db33d" stroke-width="1.2"/><text x="52" y="22" text-anchor="middle" font-size="13" fill="#4ade80" font-weight="bold">&#x1F343; MongoDB</text></g>
+<g class="badge" style="animation-delay:1.47s" transform="translate(206,252)"><rect width="100" height="34" rx="9" fill="#2a1500" stroke="#ffca28" stroke-width="1.2"/><text x="50" y="22" text-anchor="middle" font-size="13" fill="#fbbf24" font-weight="bold">&#x1F525; Firebase</text></g>
+<g class="badge" style="animation-delay:1.54s" transform="translate(318,252)"><rect width="86" height="34" rx="9" fill="#00162e" stroke="#00758f" stroke-width="1.2"/><text x="43" y="22" text-anchor="middle" font-size="13" fill="#22d3ee" font-weight="bold">&#x1F42C; MySQL</text></g>
+<g class="badge" style="animation-delay:1.61s" transform="translate(416,252)"><rect width="100" height="34" rx="9" fill="#0a2e1a" stroke="#3ecf8e" stroke-width="1.2"/><text x="50" y="22" text-anchor="middle" font-size="13" fill="#34d399" font-weight="bold">&#x26A1; Supabase</text></g>
+<g class="badge" style="animation-delay:1.68s" transform="translate(528,252)"><rect width="86" height="34" rx="9" fill="#111" stroke="#fff" stroke-width="1"/><text x="43" y="22" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">&#x25B2; Vercel</text></g>
+<g class="badge" style="animation-delay:1.75s" transform="translate(626,252)"><rect width="110" height="34" rx="9" fill="#0c1a2e" stroke="#3b82f6" stroke-width="1.2"/><text x="55" y="22" text-anchor="middle" font-size="13" fill="#60a5fa" font-weight="bold">&#x2601; Cloudinary</text></g>
+<!-- CYBER + AI -->
+<text class="cat" x="450" y="320" text-anchor="middle" font-size="12" fill="#64748b" letter-spacing="3" style="animation-delay:1.8s">CYBER SECURITY &amp; AI</text>
+<g class="badge" style="animation-delay:1.9s" transform="translate(56,332)"><rect width="106" height="34" rx="9" fill="#0d1520" stroke="#557c94" stroke-width="1.2"/><text x="53" y="22" text-anchor="middle" font-size="12" fill="#22d3ee" font-weight="bold">&#x1F409; Kali Linux</text></g>
+<g class="badge" style="animation-delay:1.97s" transform="translate(174,332)"><rect width="102" height="34" rx="9" fill="#2e0a00" stroke="#ff6633" stroke-width="1.2"/><text x="51" y="22" text-anchor="middle" font-size="12" fill="#fb923c" font-weight="bold">&#x1F534; Burp Suite</text></g>
+<g class="badge" style="animation-delay:2.04s" transform="translate(288,332)"><rect width="104" height="34" rx="9" fill="#001a30" stroke="#1679a7" stroke-width="1.2"/><text x="52" y="22" text-anchor="middle" font-size="12" fill="#38bdf8" font-weight="bold">&#x1F988; Wireshark</text></g>
+<g class="badge" style="animation-delay:2.11s" transform="translate(404,332)"><rect width="108" height="34" rx="9" fill="#1a0a2e" stroke="#8b5cf6" stroke-width="1.2"/><text x="54" y="22" text-anchor="middle" font-size="12" fill="#a78bfa" font-weight="bold">&#x1F489; Metasploit</text></g>
+<g class="badge" style="animation-delay:2.18s" transform="translate(524,332)"><rect width="96" height="34" rx="9" fill="#0d1a0d" stroke="#10a37f" stroke-width="1.2"/><text x="48" y="22" text-anchor="middle" font-size="12" fill="#34d399" font-weight="bold">&#x1F916; OpenAI</text></g>
+<g class="badge" style="animation-delay:2.25s" transform="translate(632,332)"><rect width="80" height="34" rx="9" fill="#2a0a1a" stroke="#ea4b71" stroke-width="1.2"/><text x="40" y="22" text-anchor="middle" font-size="13" fill="#f472b6" font-weight="bold">&#x26A1; n8n</text></g>
+<g class="badge" style="animation-delay:2.32s" transform="translate(724,332)"><rect width="108" height="34" rx="9" fill="#1a2e0a" stroke="#84cc16" stroke-width="1.2"/><text x="54" y="22" text-anchor="middle" font-size="12" fill="#a3e635" font-weight="bold">&#x1F517; LangChain</text></g>
+<!-- Tools footer -->
+<text class="cat" x="450" y="398" text-anchor="middle" font-size="10" fill="#3a4a5a" letter-spacing="2" style="animation-delay:2.4s">GIT &#x25C6; GITHUB &#x25C6; VS CODE &#x25C6; DOCKER &#x25C6; POSTMAN &#x25C6; LINUX &#x25C6; FIGMA</text>
+</svg>

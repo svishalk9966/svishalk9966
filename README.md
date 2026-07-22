@@ -1,10 +1,10 @@
-<div align="center">
+﻿<div align="center">
 
 <!-- ✨ Animated Hero Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-banner.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-banner-light.svg?v=2">
-  <img src="./assets/hero-banner.svg?v=2" alt="Vishal Kumar Sharma — Full Stack Web Developer" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-banner.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-banner-light.svg?v=3">
+  <img src="./assets/hero-banner.svg?v=3" alt="Vishal Kumar Sharma — Full Stack Web Developer & Cyber Security Analyst" width="100%"/>
 </picture>
 
 </div>
@@ -13,42 +13,36 @@
 
 <table align="center" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td width="38%" align="center" valign="middle">
+<td width="38%" align="center" valign="top">
 
 <!-- 🪪 Swinging Lanyard ID Card -->
-<img src="./assets/id-card.svg?v=2" alt="Vishal Kumar Sharma Developer ID Badge" width="340"/>
+<img src="./assets/id-card.svg?v=3" alt="Vishal Kumar Sharma Developer ID Badge" width="340"/>
 
 </td>
 <td width="62%" valign="top">
 
-<h3>⚡ About Me</h3>
+<h2>⚡ Architecting Secure, Scalable, & Premium Web Apps</h2>
 
-I'm a **Full Stack Web Developer** and **Cyber Security Enthusiast** — currently interning at **Cryptus Cyber Security Pvt Ltd** and finishing my **BCA at Teerthanker Mahaveer University (2026)**.
+<p>I'm a <b>Full Stack Web Developer</b> and <b>Cyber Security Enthusiast</b> who bridges the gap between <i>stunning UI/UX</i> and <i>ironclad backend security</i>. Currently interning at <b>Cryptus Cyber Security Pvt Ltd</b> and pursuing my BCA at Teerthanker Mahaveer University (2026).</p>
 
-I build production apps end-to-end — from **React Native** mobile apps with biometric & location-based security, to **React SaaS dashboards**, to **PHP platforms** migrated onto modern Firebase backends. I ship features that solve real workflow problems, not just demos.
+<p>From developing high-performance <b>React Native</b> applications with biometric security to migrating massive platforms onto modern <b>Firebase / Node.js</b> backends, I build systems that perform flawlessly under pressure.</p>
 
-```bash
-$ whoami
-vishal@dev-machine:~$ cat profile.json
+`ash
+$ npx vishal-kumar-sharma
+> Executing profile.exe...
 {
-  "name"     : "Vishal Kumar Sharma",
-  "role"     : ["Full Stack Dev", "CyberSec", "AI Dev", "OSS Contributor"],
-  "stack"    : ["MERN", "Firebase", "React Native", "Python"],
-  "location" : "Noida · Delhi NCR · Remote",
-  "seeking"  : "Trainee SE / Junior Dev roles",
-  "status"   : "🟢 Open to Opportunities"
+  "name"        : "Vishal Kumar Sharma",
+  "specialties" : ["Full Stack Dev", "Cyber Security", "AI Integration"],
+  "superpower"  : "Turning complex problems into elegant, secure code",
+  "current_focus": ["React Native", "Next.js", "Penetration Testing"],
+  "location"    : "Noida · Delhi NCR · Remote",
+  "status"      : "🟢 Open to Elite Opportunities"
 }
-```
-
-- 🔭 Building an agency management tool (React Native) — tracker, dashboard, invoices
-- 🌱 Sharpening React internals + exploring AI agent automation
-- 🔐 Cyber security research & penetration testing concepts
-- 💬 Ask me about **React Native · MERN · Firebase · Security**
-- 📫 [vishal-portfolio-two-sand.vercel.app](https://vishal-portfolio-two-sand.vercel.app/)
+`
 
 <br/>
 
-> 🎯 *"Securing what I build. Building what the world needs."*
+> 🎯 *"I don't just build applications; I engineer secure digital experiences."*
 
 </td>
 </tr>
@@ -58,164 +52,72 @@ vishal@dev-machine:~$ cat profile.json
 
 <div align="center">
 
----
-
-## 🛠️ Tech Stack
-
 <br/>
 
-<!-- Frontend -->
-**Frontend**
-
-[![React](https://skillicons.dev/icons?i=react)](https://react.dev)
-[![React Native](https://skillicons.dev/icons?i=react)](https://reactnative.dev)
-[![Next.js](https://skillicons.dev/icons?i=nextjs)](https://nextjs.org)
-[![TypeScript](https://skillicons.dev/icons?i=ts)](https://typescriptlang.org)
-[![JavaScript](https://skillicons.dev/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![HTML](https://skillicons.dev/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Tailwind](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com)
-
-<br/>
-
-**Backend**
-
-[![Node.js](https://skillicons.dev/icons?i=nodejs)](https://nodejs.org)
-[![Express](https://skillicons.dev/icons?i=express)](https://expressjs.com)
-[![PHP](https://skillicons.dev/icons?i=php)](https://php.net)
-[![Python](https://skillicons.dev/icons?i=python)](https://python.org)
-
-<br/>
-
-**Database & Cloud**
-
-[![MongoDB](https://skillicons.dev/icons?i=mongodb)](https://mongodb.com)
-[![Firebase](https://skillicons.dev/icons?i=firebase)](https://firebase.google.com)
-[![MySQL](https://skillicons.dev/icons?i=mysql)](https://mysql.com)
-[![Supabase](https://skillicons.dev/icons?i=supabase)](https://supabase.com)
-
-<br/>
-
-**Cyber Security & AI**
-
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-
-<br/>
-
-**Tools & DevOps**
-
-[![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com)
-[![GitHub](https://skillicons.dev/icons?i=github)](https://github.com)
-[![VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com)
-[![Docker](https://skillicons.dev/icons?i=docker)](https://docker.com)
-[![Postman](https://skillicons.dev/icons?i=postman)](https://postman.com)
-[![Vercel](https://skillicons.dev/icons?i=vercel)](https://vercel.com)
-[![Linux](https://skillicons.dev/icons?i=linux)](https://linux.org)
+<!-- ⚙️ Animated Tech Stack -->
+<img src="./assets/vishal-techstack.svg?v=2" alt="Vishal's Tech Arsenal" width="100%"/>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Elite Projects
 
 <br/>
 
-<table>
+<table border="0">
 <tr>
+<td width="33%" valign="top" align="center">
 
-<td width="50%" valign="top">
+### 📲 Cryptus Attendance
+> *Enterprise Management*
 
-### 📲 Cryptus Attendance App
+Biometric & location-based attendance app with real-time tracking, PDF exports, and multi-role (Admin/Teacher/Student) architecture.
 
-> Multi-role (Admin / Teacher / Student) attendance management system
-
-- 🔐 Biometric & location-based check-ins
-- 📊 PDF/CSV report exports
-- 📅 Calendar-based class tracking
-- 🔔 Real-time push notifications
-
-**Stack:** `React Native` `Expo` `Node.js` `Express` `MongoDB`
+**React Native Node.js MongoDB**
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/View_Repo-22D3EE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/svishalk9966/cryptus-attendance-app)
+[![GitHub](https://img.shields.io/badge/View_Code-22D3EE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/svishalk9966/cryptus-attendance-app)
 
 </td>
-
-<td width="50%" valign="top">
-
-### 🛡️ Compliance Automation Platform
-
-> SaaS platform for automating compliance workflows
-
-- 📋 Live compliance framework directory
-- 📚 Integrated resource library
-- 🗓️ Demo booking flow
-- ✅ Automated workflow tracking
-
-**Stack:** `React` `Node.js` `Express` `MongoDB`
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/View_Repo-34D399?style=for-the-badge&logo=github&logoColor=white)](https://github.com/svishalk9966/compliance-automation-platform)
-
-</td>
-
-</tr>
-<tr>
-
-<td width="50%" valign="top">
+<td width="33%" valign="top" align="center">
 
 ### 🎓 Hacksmart Academy
+> *EdTech Platform*
 
-> Cybersecurity education platform with multi-role dashboards
+Cybersecurity education platform handling hundreds of students. Migrated from legacy MySQL to a lightning-fast Firebase backend.
 
-- 👥 Admin / Support / Student roles
-- 🔥 Migrated from MySQL → Firebase Firestore
-- ☁️ Cloudinary media integration
-- 📖 Course management system
-
-**Stack:** `PHP` `Firebase` `Cloudinary` `MySQL`
+**PHP Firebase Cloudinary**
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/View_Repo-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/svishalk9966/hacksmart-academy)
+[![GitHub](https://img.shields.io/badge/View_Code-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/svishalk9966/hacksmart-academy)
 
 </td>
+<td width="33%" valign="top" align="center">
 
-<td width="50%" valign="top">
+### 🌐 Premium Portfolio
+> *Personal Brand*
 
-### 🌐 Developer Portfolio
+A modern, highly responsive developer portfolio showcasing premium UI/UX design, smooth animations, and optimized performance.
 
-> Personal developer portfolio — modern, fast, responsive
-
-- ⚡ Built with React + Vite
-- 🎨 Premium UI/UX design
-- 📱 Mobile-first responsive
-- 🚀 Deployed on Vercel
-
-**Stack:** `React` `Vite` `CSS3`
+**React Vite CSS3**
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-A78BFA?style=for-the-badge&logo=vercel&logoColor=white)](https://vishal-portfolio-two-sand.vercel.app/)
-[![GitHub](https://img.shields.io/badge/View_Repo-6366F1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/svishalk9966)
+[![Live Demo](https://img.shields.io/badge/Live_Site-A78BFA?style=for-the-badge&logo=vercel&logoColor=white)](https://vishal-portfolio-two-sand.vercel.app/)
 
 </td>
-
 </tr>
 </table>
 
 ---
 
-## 📊 GitHub Stats & Activity
+## 📊 GitHub Analytics & Activity
 
 <br/>
 
-<img src="./assets/vishal-stats.svg?v=1" alt="GitHub Stats" height="185"/>
-<img src="./assets/vishal-langs.svg?v=1" alt="Top Languages" height="185"/>
+<img src="https://github-readme-stats.vercel.app/api?username=svishalk9966&show_icons=true&theme=tokyonight&hide_border=true&bg_color=060b13&title_color=22d3ee&icon_color=34d399&text_color=9fb8cd&ring_color=22d3ee&border_radius=12" alt="GitHub Stats" height="185"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=svishalk9966&layout=compact&theme=tokyonight&hide_border=true&bg_color=060b13&title_color=22d3ee&text_color=9fb8cd&border_radius=12" alt="Top Languages" height="185"/>
 
 <br/><br/>
 
@@ -228,8 +130,8 @@ vishal@dev-machine:~$ cat profile.json
 
 <br/><br/>
 
-<!-- 🏆 Custom Trophies (Animated SVG) -->
-<img src="./assets/vishal-trophies.svg?v=1" alt="Trophies" width="95%"/>
+<!-- 🏆 Trophies -->
+<img src="https://github-profile-trophy.vercel.app/?username=svishalk9966&theme=tokyonight&no-frame=true&column=7&margin-w=8&margin-h=8&no-bg=true" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
@@ -254,12 +156,6 @@ vishal@dev-machine:~$ cat profile.json
 <a href="https://linkedin.com/in/vishal-kumar-sharma-dev">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
-
-<!-- Add your email badge when ready:
-<a href="mailto:youremail@example.com">
-  <img src="https://img.shields.io/badge/Email-38BDF8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
--->
 
 <br/><br/>
 
