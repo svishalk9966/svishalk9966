@@ -1,10 +1,10 @@
-<div align="center">
+﻿<div align="center">
 
-<!-- ✨ Animated Hero Banner ✨ -->
+<!-- âœ¨ Animated Hero Banner âœ¨ -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-banner.svg?v=3">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-banner-light.svg?v=3">
-  <img src="./assets/hero-banner.svg?v=3" alt="Vishal Kumar Sharma — Full Stack Web Developer & Cyber Security Analyst" width="100%"/>
+  <img src="./assets/hero-banner.svg?v=3" alt="Vishal Kumar Sharma â€” Full Stack Web Developer & Open Source Contributor" width="100%"/>
 </picture>
 
 </div>
@@ -15,34 +15,34 @@
 <tr>
 <td width="38%" align="center" valign="top">
 
-<!-- 🪪 Swinging Lanyard ID Card -->
+<!-- ðŸªª Swinging Lanyard ID Card -->
 <img src="./assets/id-card.svg?v=3" alt="Vishal Kumar Sharma Developer ID Badge" width="340"/>
 
 </td>
 <td width="62%" valign="top">
 
-<h2>⚡ Architecting Secure, Scalable, & Premium Web Apps</h2>
+<h2>âš¡ Architecting Secure, Scalable, & Premium Web Apps</h2>
 
-<p>I'm a <b>Full Stack Web Developer</b> and <b>Cyber Security Enthusiast</b> who bridges the gap between <i>stunning UI/UX</i> and <i>ironclad backend security</i>. Currently interning at <b>Cryptus Cyber Security Pvt Ltd</b> and pursuing my BCA at Teerthanker Mahaveer University (2026).</p>
+<p>I'm a <b>Full Stack Web Developer</b> who bridges the gap between <i>stunning UI/UX</i> and <i>scalable backend architecture</i>. Currently working at <b>Cryptus</b> and pursuing my BCA at Teerthanker Mahaveer University (2026).</p>
 
-<p>From developing high-performance <b>React Native</b> applications with biometric security to migrating massive platforms onto modern <b>Firebase / Node.js</b> backends, I build systems that perform flawlessly under pressure.</p>
+<p>From developing high-performance <b>React Native</b> applications with seamless user experiences to migrating massive platforms onto modern <b>Firebase / Node.js</b> backends, I build systems that perform flawlessly under pressure.</p>
 
 `ash
 $ npx vishal-kumar-sharma
 > Executing profile.exe...
 {
   "name"        : "Vishal Kumar Sharma",
-  "specialties" : ["Full Stack Dev", "Cyber Security", "AI Integration"],
+  "specialties" : ["Full Stack Dev", "Open Source", "AI Integration"],
   "superpower"  : "Turning complex problems into elegant, secure code",
-  "current_focus": ["React Native", "Next.js", "Penetration Testing"],
-  "location"    : "Noida · Delhi NCR · Remote",
-  "status"      : "🟢 Open to Elite Opportunities"
+  "current_focus": ["React Native", "Next.js", "System Design"],
+  "location"    : "Noida Â· Delhi NCR Â· Remote",
+  "status"      : "ðŸŸ¢ Open to Elite Opportunities"
 }
 `
 
 <br/>
 
-> 🎯 *"I don't just build applications; I engineer secure digital experiences."*
+> ðŸŽ¯ *"I don't just build applications; I engineer seamless digital experiences."*
 
 </td>
 </tr>
@@ -54,12 +54,12 @@ $ npx vishal-kumar-sharma
 
 <br/>
 
-<!-- ⚙️ Animated Tech Stack -->
+<!-- âš™ï¸ Animated Tech Stack -->
 <img src="./assets/vishal-techstack.svg?v=2" alt="Vishal's Tech Arsenal" width="100%"/>
 
 ---
 
-## 🚀 Elite Projects
+## ðŸš€ Elite Projects
 
 <br/>
 
@@ -85,7 +85,7 @@ $ npx vishal-kumar-sharma
 
 ---
 
-## 📊 GitHub Analytics & Activity
+## ðŸ“Š GitHub Analytics & Activity
 
 <br/>
 
@@ -98,17 +98,17 @@ $ npx vishal-kumar-sharma
 
 <br/><br/>
 
-<!-- 📈 Contribution Activity Graph -->
+<!-- ðŸ“ˆ Contribution Activity Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=svishalk9966&bg_color=060b13&color=22d3ee&line=34d399&point=38bdf8&hide_border=true&area=true&area_color=22d3ee&custom_title=Contribution%20Graph&radius=8" alt="Contribution graph" width="95%"/>
 
 <br/><br/>
 
-<!-- 🏆 Trophies -->
+<!-- ðŸ† Trophies -->
 <img src="https://github-profile-trophy.vercel.app/?username=svishalk9966&theme=tokyonight&no-frame=true&column=7&margin-w=8&margin-h=8&no-bg=true" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
-## 🐍 Watch the Snake Eat My Contributions
+## ðŸ Watch the Snake Eat My Contributions
 
 <img src="https://raw.githubusercontent.com/svishalk9966/svishalk9966/output/github-snake-teal.svg" alt="Contribution snake animation"/>
 
@@ -116,7 +116,7 @@ $ npx vishal-kumar-sharma
 
 ---
 
-## 📫 Let's Connect
+## ðŸ“« Let's Connect
 
 <br/>
 
@@ -136,6 +136,6 @@ $ npx vishal-kumar-sharma
 
 <br/><br/>
 
-*⚡ Always learning. Always building. Always securing.*
+*âš¡ Always learning. Always building. Always securing.*
 
 </div>

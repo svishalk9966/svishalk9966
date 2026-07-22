@@ -104,7 +104,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
 <!-- Cycling roles -->
 <text clip-path="url(#r1)" x="48" y="249" font-size="18" fill="#0891b2">&lt; Full Stack Web Developer /&gt;</text>
-<text clip-path="url(#r2)" x="48" y="249" font-size="18" fill="#0891b2">&lt; Cyber Security Enthusiast /&gt;</text>
+<text clip-path="url(#r2)" x="48" y="249" font-size="18" fill="#0891b2">&lt; Open Source Contributor /&gt;</text>
 <text clip-path="url(#r3)" x="48" y="249" font-size="18" fill="#0891b2">&lt; AI Automation Developer /&gt;</text>
 <text clip-path="url(#r4)" x="48" y="249" font-size="18" fill="#0891b2">&lt; Open Source Contributor /&gt;</text>
 <rect x="48" y="234" width="3" height="18" fill="#0891b2" opacity="0">
@@ -134,7 +134,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <g class="pill" style="animation:fadeIn .3s ease 5.3s forwards"><rect x="48" y="432" width="96" height="28" rx="14" fill="rgba(5,150,105,.10)" stroke="#059669" stroke-width="1"/><text x="96" y="451" text-anchor="middle" font-size="13" fill="#059669" font-weight="bold">MongoDB</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.4s forwards"><rect x="152" y="432" width="100" height="28" rx="14" fill="rgba(245,158,11,.10)" stroke="#d97706" stroke-width="1"/><text x="202" y="451" text-anchor="middle" font-size="13" fill="#b45309" font-weight="bold">Firebase</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.5s forwards"><rect x="260" y="432" width="90" height="28" rx="14" fill="rgba(2,132,199,.10)" stroke="#0284c7" stroke-width="1"/><text x="305" y="451" text-anchor="middle" font-size="13" fill="#0369a1" font-weight="bold">Python</text></g>
-<g class="pill" style="animation:fadeIn .3s ease 5.6s forwards"><rect x="358" y="432" width="86" height="28" rx="14" fill="rgba(5,150,105,.10)" stroke="#059669" stroke-width="1"/><text x="401" y="451" text-anchor="middle" font-size="13" fill="#059669" font-weight="bold">Security</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.6s forwards"><rect x="358" y="432" width="86" height="28" rx="14" fill="rgba(5,150,105,.10)" stroke="#059669" stroke-width="1"/><text x="401" y="451" text-anchor="middle" font-size="13" fill="#059669" font-weight="bold">Backend</text></g>
 <!-- Tech pills row 3 -->
 <g class="pill" style="animation:fadeIn .3s ease 5.7s forwards"><rect x="48" y="468" width="76" height="28" rx="14" fill="rgba(109,40,217,.08)" stroke="#7c3aed" stroke-width="1"/><text x="86" y="487" text-anchor="middle" font-size="13" fill="#7c3aed" font-weight="bold">PHP</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.8s forwards"><rect x="132" y="468" width="96" height="28" rx="14" fill="rgba(8,145,178,.10)" stroke="#0891b2" stroke-width="1"/><text x="180" y="487" text-anchor="middle" font-size="13" fill="#0891b2" font-weight="bold">React Native</text></g>
@@ -146,7 +146,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <tspan fill="#059669">&gt;_ </tspan><tspan fill="#334155">MERN · Firebase · React Native · Production apps end-to-end</tspan>
 </text>
 <text opacity="0" x="48" y="548" font-size="13.5" style="animation:fadeIn .4s ease 6.4s forwards">
-  <tspan fill="#0891b2">💡 </tspan><tspan fill="#334155">Cyber Security intern @ Cryptus · BCA @ TMU 2026</tspan>
+  <tspan fill="#0891b2">💡 </tspan><tspan fill="#334155">Developer intern @ Cryptus · BCA @ TMU 2026</tspan>
 </text>
 <text opacity="0" x="48" y="572" font-size="13.5" style="animation:fadeIn .4s ease 6.6s forwards">
   <tspan fill="#059669">🔭 </tspan><tspan fill="#334155">Seeking Trainee SE · Junior Dev · Noida · Delhi NCR · Remote</tspan>
